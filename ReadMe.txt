@@ -1,0 +1,1 @@
+Boring template integration and awful repetitions. God, if i didn't have had that template for free i'd have been mad. Don't give me credit for that please, my repo being empty is the only reason i'm pushing this.

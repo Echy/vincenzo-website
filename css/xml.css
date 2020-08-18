@@ -1,0 +1,16 @@
+urlset {
+    color: dimgray;
+}
+url {
+    width: 500px;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+}
+loc, lastmod {
+    display: block;
+    flex: auto;
+}
+changefreq, priority {
+    display: none;
+}

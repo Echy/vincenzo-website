@@ -1,0 +1,750 @@
+<!-- TODO: integrer photo de pizza pour chaque item -->
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Vincenzo Traiteur - Menu</title>
+	<meta name="keywords" content="pizza, pizzas, pizzeria, vincenzo, vieux boucau, livraison, livraison gratuite, traiteur, poulet roti, paella, rotisserie, four a bois, authentique">
+	<meta name="description" content="Traiteur pizzas et poulets rôtis en livraison gratuite sur Vieux-Boucau et alentours">
+	<meta name="author" content="Tristan Dayris">
+	<meta name="robots" content="index,nofollow">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+						<li class="nav-item active"><a class="nav-link" href="menu.html">Les pizzas</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Galerie</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Menu</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End All Pages -->
+	
+	<!-- Start Menu -->
+	<div class="menu-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Les pizzas</h2>
+						<p>Préparation de poulets rôtis le midi
+							<br>Cuisson à domicile de paëlla maison à partir de 20 personnes et cuisson au four à bois de différentes pièces de viandes</p>
+						<p>Toutes les pizzas sont de 33cm de diamètre</p>
+						<p>Supplément au choix : salade, œuf, oignons, champignons à 1€</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row inner-menu-box">
+				<div class="col-3">
+					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Toutes les pizzas</a>
+						<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Base tomate</a>
+						<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Base crème fraîche</a>
+						<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Les spéciales</a>
+					</div>
+				</div>
+				
+				<div class="col-9">
+					<div class="tab-content" id="v-pills-tabContent">
+						<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+							<div class="row">
+
+
+								<!-- special-grid: drinks = tomate / lunch = creme / dinner = speciale
+								 Oui oui c'est logique. Pas de questions, merci.-->
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/margarita.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Margarita</h4>
+											<p>Tomate, mozzarella, parmesan, olives, basilic frais (selon saison)</p>
+											<h5> 8,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/anchois.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Anchois</h4>
+											<p>Tomate, oignons, anchois, mozzarella, emmental, parmesan, origan, persillade, olives</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Regina</h4>
+											<p>Tomate, jambon, mozzarella, emmental, parmesan, origan, olives</p>
+											<h5> 10,50€</h5>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/reine.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Reine</h4>
+											<p>Tomate, champignons, jambon, mozzarella, emmental, parmesan, origan, olives</p>
+											<h5> 11,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Royale</h4>
+											<p>Tomate, champignons, jambon, œuf, mozzarella, emmental, parmesan, origan, olives</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/chorizo.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Chorizo</h4>
+											<p>Tomate, champignons, chorizo, poivrons, œuf, mozzarella, emmental, parmesan, olives</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Proscuitto</h4>
+											<p>Tomates, jambon de pays, oignons, olives, mozzarella, basilic (selon saison), salade</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/vegetarienne.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Végétarienne</h4>
+											<p>Tomates, poivrons, abergines, oignons, mozzarella, emmental, parmesan, olives, origan</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/orientale.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Orientale</h4>
+											<p>Tomates, merguez, mozzarella, emmental, parmesan, origan, oignons, olives</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Pitchoun</h4>
+											<p>Tomate, jambon, fromage + jus de fruits (25cm)</p>
+											<h5> 7,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/5_fromages_1.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>5 fromages</h4>
+											<p>Crème fraîche, roquefort, mozzarella, emmental, parmesan, salade</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/flamme.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Flamme</h4>
+											<p>Crème fraîche, oignons, lardons fumés</p>
+											<h5> 11,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/chevre_miel.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Chèvre miel</h4>
+											<p>Crème fraîche, tomate, chèvre, miel, thym, salade</p>
+											<h5> 11,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/pollo.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Pollo</h4>
+											<p>Crème fraîche, tomate, poulet, oignons, champignons, mozzarella, emmental, parmesan, olives</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/curry.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Curry</h4>
+											<p>Crème fraîche, curry, poulet, oignons, mozzarella</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/calzone_1.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Calzone</h4>
+											<p>Crème fraîche, tomate, jambon, mozzarella, emmental, parmesan, œuf, champignons</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>La Vincenzo</h4>
+											<p>Tomato, crème fraîche, oignons, lardons fumés, champignons, chèvre, mozzarella, emmental, parmesan, œuf, olives, paprika, origan</p>
+											<h5> 13,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/menu/boucalaise.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>La boucalaise</h4>
+											<p>Crème fraîche, magret de canard, oignons, champignons, mozzarella, emmental, parmesan, salade</p>
+											<h5> 14,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Croc Signora</h4>
+											<p>Sauce béchamel, jambon, mozzarella, emmental, parmesan, œuf</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							
+						</div>
+						<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+							<div class="row">
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/margarita.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Margarita</h4>
+											<p>Tomate, mozzarella, parmesan, olives, basilic frais (selon saison)</p>
+											<h5> 8,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/anchois.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Anchois</h4>
+											<p>Tomate, oignons, anchois, mozzarella, emmental, parmesan, origan, persillade, olives</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Regina</h4>
+											<p>Tomate, jambon, mozzarella, emmental, parmesan, origan, olives</p>
+											<h5> 10,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/reine.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Reine</h4>
+											<p>Tomate, champignons, jambon, mozzarella, emmental, parmesan, origan, olives</p>
+											<h5> 11,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Royale</h4>
+											<p>Tomate, champignons, jambon, œuf, mozzarella, emmental, parmesan, origan, olives</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/chorizo.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Chorizo</h4>
+											<p>Tomate, champignons, chorizo, poivrons, œuf, mozzarella, emmental, parmesan, olives</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Proscuitto</h4>
+											<p>Tomates, jambon de pays, oignons, olives, mozzarella, basilic (selon saison), salade</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/vegetarienne.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Végétarienne</h4>
+											<p>Tomates, poivrons, abergines, oignons, mozzarella, emmental, parmesan, olives, origan</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/orientale.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Orientale</h4>
+											<p>Tomates, merguez, mozzarella, emmental, parmesan, origan, oignons, olives</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid drinks">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Pitchoun</h4>
+											<p>Tomate, jambon, fromage + jus de fruits (25cm)</p>
+											<h5> 7,00€</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+							<div class="row">
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/5_fromages_1.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>5 fromages</h4>
+											<p>Crème fraîche, roquefort, mozzarella, emmental, parmesan, salade</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/chevre_miel.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Chèvre miel</h4>
+											<p>Crème fraîche, tomate, chèvre, miel, thym, salade</p>
+											<h5> 11,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/flamme.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Flamme</h4>
+											<p>Crème fraîche, oignons, lardons fumés</p>
+											<h5> 11,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/pollo.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Pollo</h4>
+											<p>Crème fraîche, tomate, poulet, oignons, champignons, mozzarella, emmental, parmesan, olives</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/curry.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Curry</h4>
+											<p>Crème fraîche, curry, poulet, oignons, mozzarella</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid lunch">
+									<div class="gallery-single fix">
+										<img src="images/menu/calzone_1.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Calzone</h4>
+											<p>Crème fraîche, tomate, jambon, mozzarella, emmental, parmesan, œuf, champignons</p>
+											<h5> 12,50€</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+							<div class="row">
+								<div class="col-lg-5 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/menu/vincenzo.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>La Vincenzo</h4>
+											<p>Tomato, crème fraîche, oignons, lardons fumés, champignons, chèvre, mozzarella, emmental, parmesan, œuf, olives, paprika, origan</p>
+											<h5> 13,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/menu/boucalaise.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>La boucalaise</h4>
+											<p>Crème fraîche, magret de canard, oignons, champignons, mozzarella, emmental, parmesan, salade</p>
+											<h5> 14,50€</h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-5 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/menu/carton.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Croc Signora</h4>
+											<p>Sauce béchamel, jambon, mozzarella, emmental, parmesan, œuf</p>
+											<h5> 12,00€</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Menu -->
+
+	<!-- Start allerg -->
+	<div class="gallery-box">
+		<div class="container">
+			<div class="tz-gallery">
+				<div class="row">
+					<div class="col-lg-12 col-md-6">
+						<a class="lightbox" href="images/rng_img/allergenes.png">
+							<img class="img-fluid" src="images/rng_img/allergenes.png" alt="Gallery Images">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Start QT -->
+	<div class="qt-box qt-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-center">
+					<p class="lead ">
+						Notre pâte à pizza est faite maison avec une farine issue de récoltes et de moulins italiens et abaissée à la main, dans le plus grand respect de la tradition.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End QT -->
+	
+	<!-- Start Customer Reviews -->
+	<div class="customer-reviews-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Avis des clients</h2>
+						<p>Pris depuis Instagram et Facebook</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 mr-auto ml-auto text-center">
+					<div id="reviews" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner mt-4">
+							<div class="carousel-item text-center active">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_1.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_2.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_3.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_4.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_5.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_6.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_7.png"></p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+								</div>
+								<p class="m-0 pt-3"><img alt="" src="images/avis_clients/client_8.png"></p>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
+							<i class="fa fa-angle-left" aria-hidden="true"></i>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#reviews" role="button" data-slide="next">
+							<i class="fa fa-angle-right" aria-hidden="true"></i>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Customer Reviews -->
+
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 arrow-right">
+					<a href="tel:0613795767"><i class="fa fa-volume-control-phone"></i>
+						<div class="overflow-hidden">
+							<h4>Appeler</h4>
+							<p class="lead">
+								06 13 79 57 67
+							</p>
+						</div></a>
+				</div>
+				<div class="col-md-4 arrow-right">
+					<a href="mailto:vincenzo.traiteur@gmail.com"> <i class="fa fa-envelope"></i>
+						<div class="overflow-hidden">
+							<h4>Email</h4>
+							<p class="lead">
+								vincenzo.traiteur@gmail.com
+							</p>
+						</div></a>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<p class="lead">
+							2 Impasse Jacques Brel <br>40480 Vieux-Boucau
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>A propos</h3>
+					<p>Livraison de pizzas le soir, et de poulets rôtis le midi, le tout cuit au four à bois. Pourquoi ? Pour le Meilleur du Bon !</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Résaux</h3>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="https://www.facebook.com/Vincenzo-Traiteur-%C3%A0-domicile-103444084714444"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/vincenzo_traiteur"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact</h3>
+					<p class="lead"><a href="tel:0613795767">06 13 79 57 67</a></p>
+					<p><a href="mailto:vincenzo.traiteur@gmail.com"> vincenzo.traiteur@gmail.com</a></p>
+					<p class="lead">2 Impasse Jacques Brel 40480 Vieux-Boucau</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Heures d'ouverture</h3>
+					<p><span class="text-color">Lun-Sam :</span> 11h-14h30 - 18h30-22h</p>
+					<p><span class="text-color">Dim :</span> 11h - 14h30</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By :
+							<a href="https://html.design/">html design</a><br>
+							Website created & template integrated by <a href="mailto:tristan.dayris@gmail.com">Tristan Dayris</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
